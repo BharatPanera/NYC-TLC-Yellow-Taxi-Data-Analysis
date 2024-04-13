@@ -1,0 +1,34 @@
+Overview
+--------
+This document outlines the steps to install HappyBase on an Amazon Elastic MapReduce (EMR) instance.
+HappyBase is a Python library used for interacting with Apache HBase.
+
+
+Installing gcc
+--------------
+1. Ensure that you have SSH access to your EMR instance.
+2. Log in to your EMR instance using SSH.
+3. Run the following command to update the package manager:
+	- sudo yum update
+4. Install gcc by running the command:
+	- sudo yum install gcc
+
+
+Installing python3-devel
+-------------------------
+1. Before installing HappyBase, ensure that python3-devel is installed.
+2. Install python3-devel by running:
+	- sudo yum install python3-devel
+
+
+Installing HappyBase
+---------------------
+1. Once gcc and python3-devel are installed, you can proceed to install HappyBase.
+2. Use pip to  HappyBase by running the command:
+	- pip install happybase
+
+After installing the HappyBase library:
+	- Make sure the csv files and batch_ingest.py script are present in the same directory.
+	- run "python3 batch_ingest.py" command to execute the script.
+	- (Optional) -- Since the script execution will take long time, you can run it in backgroup using below commnd:
+		- nohup python3 batch_ingest.py > batch_ingest.log &

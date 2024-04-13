@@ -1,0 +1,10 @@
+2024-04-09 08:08:45,563 - INFO : Connection to HBase opened.
+2024-04-09 08:08:45,564 - INFO : Starting batch insert of yellow_tripdata_2017-03.csv
+2024-04-09 08:51:15,552 - INFO : Batch insert completed for yellow_tripdata_2017-03.csv
+2024-04-09 08:51:15,559 - INFO : Execution time for yellow_tripdata_2017-03.csv: 42.49 minutes
+
+2024-04-09 08:51:15,562 - INFO : Starting batch insert of yellow_tripdata_2017-04.csv
+2024-04-09 09:37:06,442 - INFO : Batch insert completed for yellow_tripdata_2017-04.csv
+2024-04-09 09:37:06,446 - INFO : Execution time for yellow_tripdata_2017-04.csv: 45.84 minutes
+
+2024-04-09 09:37:06,450 - INFO : Script execution time: 01:28:20
