@@ -1,4 +1,4 @@
-# MapReduce Programming Assignment
+# MapReduce Programming
 
 This assignment focuses on utilizing big data tools such as Hadoop Framework, Apache HBase, and Apache Sqoop to analyze the NYC TLC yellow taxi dataset for the year 2017. The dataset includes detailed trip records and related information.
 
